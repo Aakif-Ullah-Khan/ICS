@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container Style */
+.container {
+  width: 100%;
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto; /* Centers the container */
+}
+
+/* Navbar Style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  padding: 5px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  margin: 0 10px;
+}
+ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* <!-- ......... NAV COMPLATE ......... --> */
+
+.banner {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(./IMAGES/banner2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+}
+
+.banner h1 {
+  text-align: center;
+  color: white;
+  margin: 0; /* Remove default margin */
+  font-size: 4vw;
+  /* font-weight: 300; */
+  margin-bottom: 1vw;
+}
+.banner h1:hover{
+
+    color: rgb(223, 87, 171);
+}
+
+.banner p {
+  width: 50%;
+  color: white;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+/* <!--......... BANNER COMPLETE......... -->   */
+
+.weakly-schedule {
+  width: 100%;
+  /* height: 70vh; Horizontally centers the content */
+}
+.weakly-schedule h1 {
+    margin-top: 1vw;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 100;
+  margin-bottom: 1vw;
+}
+.weakly-schedule p {
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 100;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1vw;
+}
+.weakly-schedule .days {
+ display: flex;
+ 
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ /* background-color: blueviolet; */
+}
+.weakly-schedule .days .monday {
+  width: 190px;
+  height: 250px;
+  background-color: bisque;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  border-radius: 10%;
+}
+
+.weakly-schedule .days .monday:hover {
+  background-color: rgb(218, 173, 173);
+}
+
+/* <!-- ......... WEEKLY COMPLETE ......... --> */
+.courses{
+    text-align: center;
+}
+.Services{
+  width: 200px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10%;
+}
+.ms-office{
+    width: 100px;
+    height: 100px;
+}
+.office-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(218, 173, 173);
+    cursor: pointer;
+}
