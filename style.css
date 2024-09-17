@@ -73,7 +73,7 @@ ul li a {
   color: white;
   text-align: center;
   font-size: 1vw;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 /* <!--......... BANNER COMPLETE......... -->   */
@@ -86,13 +86,13 @@ ul li a {
     margin-top: 1vw;
   text-align: center;
   font-size: 3vw;
-  font-weight: 100;
+  font-weight: 700;
   margin-bottom: 1vw;
 }
 .weakly-schedule p {
   text-align: center;
   font-size: 1vw;
-  font-weight: 100;
+  font-weight: 300;
   width: 50%;
   margin: 0 auto;
   margin-bottom: 1vw;
@@ -127,6 +127,7 @@ ul li a {
 }
 .courses-div{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5vw;
@@ -156,11 +157,17 @@ ul li a {
     justify-content: center;
     gap: 1vw;
 }
+.office-text p{
+  text-align: center;
+  padding: 0.5vw;
+}
 button{
     width: 100px;
     height: 30px;
     border-radius: 10px;
+    border: 1px solid black;
     border: none;
     background-color: rgb(218, 173, 173);
     cursor: pointer;
+    color: red;
 }
